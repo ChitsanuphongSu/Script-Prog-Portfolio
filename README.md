@@ -2,7 +2,7 @@
 
 **A Collection of Python Coursework, Automation Labs, and Software Projects**
 
-An academic portfolio of weekly notebooks, automation exercises, and command-line projects. The five coursework categories preserve each project's internal layout.
+An academic portfolio of weekly notebooks, automation exercises, and command-line projects. The six portfolio categories preserve each project's internal layout.
 
 **Python · Jupyter Notebook · Coursework Portfolio**
 
@@ -15,7 +15,7 @@ An academic portfolio of weekly notebooks, automation exercises, and command-lin
 | Course | Script Programming |
 | Section | 1 |
 
-These details come from the [original repository README](Unclassified/Original%20README.md). Other academic details are omitted because the source does not state them.
+These details were checked against the README in the original `ScriptProg` repository. Other academic details are omitted because the source does not state them.
 
 ## About This Repository
 
@@ -68,8 +68,6 @@ ScriptProgramming/
 │   ├── Class Activity 2/
 │   ├── Class Activity 3/
 │   └── Class Activity 4/
-├── Unclassified/
-│   └── Original README.md
 ├── .gitignore
 └── README.md
 ```
@@ -169,7 +167,12 @@ The coursework shows Python control flow and data structures, modular and object
 
 ## Getting Started
 
-The proposed GitHub destination is `chitsanuphong-su/Script-Prog-Portfolio`. A clone command will be added after the remote repository exists and its URL is verified. To explore the current local collection, open a project directory and read its own README and dependency file.
+The configured GitHub destination is `ChitsanuphongSu/Script-Prog-Portfolio`. To explore the collection, open a project directory and read its own README and dependency file. Once the repository is available on GitHub, clone it with:
+
+```powershell
+git clone https://github.com/ChitsanuphongSu/Script-Prog-Portfolio.git
+cd Script-Prog-Portfolio
+```
 
 Example for Windows PowerShell:
 
@@ -206,7 +209,7 @@ This is an invocation example, not a claim that the suite currently passes.
 
 ## Repository History
 
-This portfolio reorganizes work from the earlier repository `683380070-4_sec1-script_programming`. The proposed new portfolio repository is `Script-Prog-Portfolio` and is intended to have independent Git history. The original repository remains separate. The two externally referenced projects are attributed to their own repository owner; this portfolio does not assert ownership of their code.
+This portfolio reorganizes work from the earlier repository `683380070-4_sec1-script_programming`. Its Git history is independent of the original repository, which remains separate. The two externally referenced projects are attributed to their own repository owner; this portfolio does not assert ownership of their code.
 
 ## Author
 
