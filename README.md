@@ -34,6 +34,8 @@ This collection brings previously completed Script Programming coursework into o
 
 A reference is a link and description, not an imported copy of the source.
 
+The [Certificate](Certificate) folder contains two Python Essentials completion certificates. It is supporting evidence, separate from the six coursework categories.
+
 ## Repository Structure
 
 ```text
@@ -68,6 +70,9 @@ ScriptProgramming/
 │   ├── Class Activity 2/
 │   ├── Class Activity 3/
 │   └── Class Activity 4/
+├── Certificate/
+│   ├── Python_Essentials_1_certificate_...pdf
+│   └── Python_Essentials_2_certificate_...pdf
 ├── .gitignore
 └── README.md
 ```
@@ -132,6 +137,15 @@ These four activities are an additional organizational category and are no longe
 | 2 | my-oop-task-manager | Task management using classes | [Project](Class%20Activity/Class%20Activity%202/my-oop-task-manager) |
 | 3 | my-api-fetcher | REST API requests from a CLI | [Project](Class%20Activity/Class%20Activity%203/my-api-fetcher) |
 | 4 | enhanced-task-manager-design | Modular task-manager design scaffold; advanced search/filter/sort are placeholders in this version | [Project](Class%20Activity/Class%20Activity%204/enhanced-task-manager-design) |
+
+## Certificates
+
+Two certificates from Cisco Networking Academy document completion of the Python Essentials courses. They supplement the coursework in this portfolio; the PDFs are not project source code.
+
+| Course | Certificate |
+|---|---|
+| Python Essentials 1 | [View PDF](Certificate/Python_Essentials_1_certificate_chitsanuphong-sus-kkumail-com_0562f165-a8f9-424c-9d59-c2d21de0bf81.pdf) |
+| Python Essentials 2 | [View PDF](Certificate/Python_Essentials_2_certificate_chitsanuphong-sus-kkumail-com_de1dbe98-adde-49c0-af7d-2713cfec9ada.pdf) |
 
 ## Project Credits & Attribution
 
