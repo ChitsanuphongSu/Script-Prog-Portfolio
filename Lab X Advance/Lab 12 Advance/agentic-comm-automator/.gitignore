@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+.venv/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Environment variables (DO NOT COMMIT CREDENTIALS)
+.env
+.env.*
+!.env.example
+
+# Log files
+*.log
+
+# Generated files / downloaded attachments
+data/attachments/*
+!data/attachments/.gitkeep
+
+data/incoming_attachments/*
+!data/incoming_attachments/.gitkeep
+!data/incoming_attachments/sales_report_incoming.pdf
+
+# Audit reports
+reports/*
+!reports/.gitkeep
+!reports/audit_report_comm_20261014_005135.json
+!reports/audit_report_comm_20261014_005227.json
+!reports/audit_report_comm_20261014_005346.json
+!reports/audit_report_comm_20261014_005437.json
+
+# Testing cache
+.pytest_cache/

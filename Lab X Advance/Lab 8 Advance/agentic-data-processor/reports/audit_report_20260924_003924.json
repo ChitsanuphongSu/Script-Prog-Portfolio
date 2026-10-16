@@ -1,0 +1,107 @@
+[
+    {
+        "timestamp": "2026-09-24T00:39:24.243842",
+        "status": "INFO",
+        "task_type": "load_csv",
+        "message": "Starting task 'Load Sales Data CSV'",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.244315",
+        "status": "SUCCESS",
+        "task_type": "load_csv",
+        "message": "Task 'Load Sales Data CSV' finished.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.244362",
+        "status": "INFO",
+        "task_type": "transform_csv_aggregate",
+        "message": "Starting task 'Aggregate Sales by Customer'",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.244746",
+        "status": "SUCCESS",
+        "task_type": "transform_csv_aggregate",
+        "message": "Task 'Aggregate Sales by Customer' finished.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.244817",
+        "status": "INFO",
+        "task_type": "save_csv",
+        "message": "Starting task 'Save Aggregated Sales CSV'",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.246394",
+        "status": "INFO",
+        "task_type": "csv_to_json_conversion",
+        "message": "Starting task 'Convert Raw Sales to JSON'",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.246484",
+        "status": "SUCCESS",
+        "task_type": "csv_to_json_conversion",
+        "message": "Task 'Convert Raw Sales to JSON' finished.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.246531",
+        "status": "INFO",
+        "task_type": "save_json",
+        "message": "Starting task 'Save Raw Sales JSON'",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.247714",
+        "status": "INFO",
+        "task_type": "load_json",
+        "message": "Starting task 'Load Inventory Data JSON'",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.247937",
+        "status": "SUCCESS",
+        "task_type": "load_json",
+        "message": "Task 'Load Inventory Data JSON' finished.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.248061",
+        "status": "INFO",
+        "task_type": "update_json_data",
+        "message": "Starting task 'Update Inventory Stock & Add Product'",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.248210",
+        "status": "SUCCESS",
+        "task_type": "update_json_data",
+        "message": "Task 'Update Inventory Stock & Add Product' finished.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.248274",
+        "status": "INFO",
+        "task_type": "query_json_data",
+        "message": "Starting task 'Query Specific Product Detail'",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.248341",
+        "status": "SUCCESS",
+        "task_type": "query_json_data",
+        "message": "Task 'Query Specific Product Detail' finished.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-24T00:39:24.248426",
+        "status": "INFO",
+        "task_type": "save_json",
+        "message": "Starting task 'Save Updated Inventory JSON'",
+        "details": {}
+    }
+]

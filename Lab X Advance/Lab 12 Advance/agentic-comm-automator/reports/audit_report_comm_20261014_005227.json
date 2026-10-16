@@ -1,0 +1,162 @@
+{
+    "summary": {
+        "generated_at": "2026-10-14T00:52:27.385932",
+        "execution_duration_seconds": 0.01,
+        "dry_run": true,
+        "final_status": "PARTIAL_FAILURE",
+        "stats": {
+            "total_tasks": 4,
+            "successful_tasks": 0,
+            "failed_tasks": 4,
+            "skipped_tasks": 0
+        }
+    },
+    "events": [
+        {
+            "timestamp": "2026-10-14T00:52:27.376651",
+            "status": "INFO",
+            "task_type": "agent_run",
+            "message": "Communication Agent started.",
+            "details": {
+                "dry_run": true
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.376704",
+            "status": "INFO",
+            "task_type": "send_email",
+            "message": "Starting task 'Send Daily Sales Report Email'",
+            "details": {
+                "name": "Send Daily Sales Report Email"
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.376786",
+            "status": "ERROR",
+            "task_type": "template_render",
+            "message": "Template rendering failed: Required environment variable 'TEST_RECIPIENT_EMAIL' is not set.",
+            "details": {
+                "template": "${TEST_RECIPIENT_EMAIL}"
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.376823",
+            "status": "ERROR",
+            "task_type": "send_email",
+            "message": "An error occurred during task 'Send Daily Sales Report Email': Required environment variable 'TEST_RECIPIENT_EMAIL' is not set.",
+            "details": {
+                "error": "Required environment variable 'TEST_RECIPIENT_EMAIL' is not set.",
+                "task_name": "Send Daily Sales Report Email"
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.383638",
+            "status": "INFO",
+            "task_type": "send_sms",
+            "message": "Starting task 'Send Sales Alert SMS'",
+            "details": {
+                "name": "Send Sales Alert SMS"
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.383664",
+            "status": "ERROR",
+            "task_type": "template_render",
+            "message": "Template rendering failed: Required environment variable 'TEST_SMS_PHONE_NUMBER' is not set.",
+            "details": {
+                "template": "${TEST_SMS_PHONE_NUMBER}"
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.383697",
+            "status": "ERROR",
+            "task_type": "send_sms",
+            "message": "An error occurred during task 'Send Sales Alert SMS': Required environment variable 'TEST_SMS_PHONE_NUMBER' is not set.",
+            "details": {
+                "error": "Required environment variable 'TEST_SMS_PHONE_NUMBER' is not set.",
+                "task_name": "Send Sales Alert SMS"
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.384315",
+            "status": "INFO",
+            "task_type": "send_email",
+            "message": "Starting task 'Simulate Incoming Request Email (to self)'",
+            "details": {
+                "name": "Simulate Incoming Request Email (to self)"
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.384336",
+            "status": "ERROR",
+            "task_type": "template_render",
+            "message": "Template rendering failed: Required environment variable 'SENDER_EMAIL' is not set.",
+            "details": {
+                "template": "${SENDER_EMAIL}"
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.384365",
+            "status": "ERROR",
+            "task_type": "send_email",
+            "message": "An error occurred during task 'Simulate Incoming Request Email (to self)': Required environment variable 'SENDER_EMAIL' is not set.",
+            "details": {
+                "error": "Required environment variable 'SENDER_EMAIL' is not set.",
+                "task_name": "Simulate Incoming Request Email (to self)"
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.385047",
+            "status": "INFO",
+            "task_type": "process_inbox",
+            "message": "Starting task 'Process Incoming Data Requests'",
+            "details": {
+                "name": "Process Incoming Data Requests"
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.385080",
+            "status": "ERROR",
+            "task_type": "template_render",
+            "message": "Template rendering failed: Required environment variable 'SENDER_EMAIL' is not set.",
+            "details": {
+                "template": "${SENDER_EMAIL}"
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.385120",
+            "status": "ERROR",
+            "task_type": "process_inbox",
+            "message": "An error occurred during task 'Process Incoming Data Requests': Required environment variable 'SENDER_EMAIL' is not set.",
+            "details": {
+                "error": "Required environment variable 'SENDER_EMAIL' is not set.",
+                "task_name": "Process Incoming Data Requests"
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.385803",
+            "status": "INFO",
+            "task_type": "agent_run_summary",
+            "message": "Communication Agent finished in 0.01 seconds.",
+            "details": {
+                "duration": 0.01
+            }
+        },
+        {
+            "timestamp": "2026-10-14T00:52:27.385926",
+            "status": "INFO",
+            "task_type": "audit_report",
+            "message": "Audit report generated at D:\\Kim_Yr.2\\ScriptProg\\week12\\agentic-comm-automator\\reports\\audit_report_comm_20261014_005227.json",
+            "details": {
+                "final_status": "PARTIAL_FAILURE",
+                "duration_seconds": 0.01,
+                "stats": {
+                    "total_tasks": 4,
+                    "successful_tasks": 0,
+                    "failed_tasks": 4,
+                    "skipped_tasks": 0
+                }
+            }
+        }
+    ]
+}

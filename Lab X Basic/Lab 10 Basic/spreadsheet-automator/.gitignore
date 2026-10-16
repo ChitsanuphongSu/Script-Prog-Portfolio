@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+venv/
+.vscode/
+data/output_sales_report.xlsx
+!data/output_sales_report.xlsx

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+venv/
+reports/*
+!reports/audit_report_20260924_003924.json
+data/processed_sales_by_customer.csv
+data/sales_data.json
+data/updated_inventory.json
+!data/processed_sales_by_customer.csv
+!data/sales_data.json
+!data/updated_inventory.json

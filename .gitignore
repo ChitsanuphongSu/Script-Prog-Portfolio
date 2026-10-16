@@ -1,0 +1,30 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local system and runtime artifacts
+.DS_Store
+Thumbs.db
+*.log
+
+# Portfolio-only privacy hold: saved email screenshot contains a personal address
+/Lab X Basic/Lab 12 Basic/email-sms-automator/Screenshot แจ้งเตือน email.png
